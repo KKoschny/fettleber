@@ -367,3 +367,15 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   .flow-branch::before { font-size: 0.65rem; }
   .impact-grid { grid-template-columns: 1fr; }
 }
+
+/* Step note */
+.step-note {
+  margin-top: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-alt);
+  border-left: 3px solid var(--color-amber);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
